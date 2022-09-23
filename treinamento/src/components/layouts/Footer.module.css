@@ -1,0 +1,21 @@
+.footer {
+    border-top: solid 1px black;
+    position: absolute;
+	bottom: 0;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: red;
+}
