@@ -1,0 +1,26 @@
+*React
+npx create-react-app treinamento
+React use always className, class is a reservation word for React
+React Fragments - Não precisa criar div usa-se <> e </>
+Proptypes = rules and values default for the component (see it List and Item)
+The default comportment of form is send the request immediately, but we can attribute an event, to force the stop and a change that event. (See it at Form.jsx)
+useState is a hook like a watch or mounted in VUE.js, we declare a variable and a comportment, in the code we change the comportment and show the variable. (See it at Form.jsx)
+We can send anything by props, include events
+Render by condition 
+npm install react-router-dom -save
+npm install react-icons -save
+
+*Node
+npm init -y
+
+*Install sequelize and mysql
+npm install sequelize mysql2
+
+Create db.js
+Parameters to new Sequelize (database name, user , password, {object with connection options})
+Create folder models
+Include models, the table will be created if it not exists 
+
+Create index.js 
+
+(In this step, the tables will be created)
