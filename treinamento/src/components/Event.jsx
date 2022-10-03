@@ -1,11 +1,18 @@
 import Button from "./event/Button"
+import Frase from "./Frase.jsx"
 function Event() {
     function myEvent() {
         console.log("Clicou")
+        
     };
 
     function mySecondEvent() {
         console.log("Clicou no segundo")
+        return(
+            <>
+            <Frase />
+            </>
+        )
     }
     return (
         <>

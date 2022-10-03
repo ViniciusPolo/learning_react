@@ -26,7 +26,7 @@ export default function Form() {
                     <input type="password" 
                     id="key"
                     name="key"
-                    placeholder="Type your name"
+                    placeholder="Type your password"
                     onChange={(e)=> setPassword(e.target.value)}
                     />
                 </div>
